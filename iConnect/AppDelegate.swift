@@ -12,7 +12,8 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     let statusItem = NSStatusBar.system().statusItem(withLength: -2)
-
+    var state = true
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         if let button = statusItem.button {
@@ -35,10 +36,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func printQuote(sender: AnyObject) {
-        let quoteText = "Never put off until tomorrow what you can do the day after tomorrow."
-        let quoteAuthor = "Mark Twain"
-        
-        print("\(quoteText) — \(quoteAuthor)")
+        if(state){
+            statusItem.button?.image = NSImage(named: "Bone_complete")
+            state = false
+        }
+        else{
+            statusItem.button?.image = NSImage(named: "Bone")
+            state = true
+        }
     }
     
     func quit(sender: NSMenuItem) {
