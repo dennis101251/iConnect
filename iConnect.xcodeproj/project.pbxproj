@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA245EA1E491F4500D5CC20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA245E91E491F4500D5CC20 /* AppDelegate.swift */; };
+		FEA245EC1E491F4500D5CC20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA245EB1E491F4500D5CC20 /* ViewController.swift */; };
+		FEA245EE1E491F4500D5CC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA245ED1E491F4500D5CC20 /* Assets.xcassets */; };
+		FEA245F11E491F4500D5CC20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA245EF1E491F4500D5CC20 /* Main.storyboard */; };
+		FEA245FC1E491F4600D5CC20 /* iConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA245FB1E491F4600D5CC20 /* iConnectTests.swift */; };
+		FEA246071E491F4600D5CC20 /* iConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA246061E491F4600D5CC20 /* iConnectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA245F81E491F4600D5CC20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA245DE1E491F4500D5CC20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA245E51E491F4500D5CC20;
+			remoteInfo = iConnect;
+		};
+		FEA246031E491F4600D5CC20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA245DE1E491F4500D5CC20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA245E51E491F4500D5CC20;
+			remoteInfo = iConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA245E61E491F4500D5CC20 /* iConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA245E91E491F4500D5CC20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEA245EB1E491F4500D5CC20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEA245ED1E491F4500D5CC20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA245F01E491F4500D5CC20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA245F21E491F4500D5CC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA245F71E491F4600D5CC20 /* iConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA245FB1E491F4600D5CC20 /* iConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iConnectTests.swift; sourceTree = "<group>"; };
+		FEA245FD1E491F4600D5CC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA246021E491F4600D5CC20 /* iConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA246061E491F4600D5CC20 /* iConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iConnectUITests.swift; sourceTree = "<group>"; };
+		FEA246081E491F4600D5CC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA245E31E491F4500D5CC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA245F41E491F4600D5CC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA245FF1E491F4600D5CC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA245DD1E491F4500D5CC20 = {
+			isa = PBXGroup;
+			children = (
+				FEA245E81E491F4500D5CC20 /* iConnect */,
+				FEA245FA1E491F4600D5CC20 /* iConnectTests */,
+				FEA246051E491F4600D5CC20 /* iConnectUITests */,
+				FEA245E71E491F4500D5CC20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA245E71E491F4500D5CC20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA245E61E491F4500D5CC20 /* iConnect.app */,
+				FEA245F71E491F4600D5CC20 /* iConnectTests.xctest */,
+				FEA246021E491F4600D5CC20 /* iConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA245E81E491F4500D5CC20 /* iConnect */ = {
+			isa = PBXGroup;
+			children = (
+				FEA245E91E491F4500D5CC20 /* AppDelegate.swift */,
+				FEA245EB1E491F4500D5CC20 /* ViewController.swift */,
+				FEA245ED1E491F4500D5CC20 /* Assets.xcassets */,
+				FEA245EF1E491F4500D5CC20 /* Main.storyboard */,
+				FEA245F21E491F4500D5CC20 /* Info.plist */,
+			);
+			path = iConnect;
+			sourceTree = "<group>";
+		};
+		FEA245FA1E491F4600D5CC20 /* iConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA245FB1E491F4600D5CC20 /* iConnectTests.swift */,
+				FEA245FD1E491F4600D5CC20 /* Info.plist */,
+			);
+			path = iConnectTests;
+			sourceTree = "<group>";
+		};
+		FEA246051E491F4600D5CC20 /* iConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA246061E491F4600D5CC20 /* iConnectUITests.swift */,
+				FEA246081E491F4600D5CC20 /* Info.plist */,
+			);
+			path = iConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA245E51E491F4500D5CC20 /* iConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA2460B1E491F4600D5CC20 /* Build configuration list for PBXNativeTarget "iConnect" */;
+			buildPhases = (
+				FEA245E21E491F4500D5CC20 /* Sources */,
+				FEA245E31E491F4500D5CC20 /* Frameworks */,
+				FEA245E41E491F4500D5CC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iConnect;
+			productName = iConnect;
+			productReference = FEA245E61E491F4500D5CC20 /* iConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA245F61E491F4600D5CC20 /* iConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA2460E1E491F4600D5CC20 /* Build configuration list for PBXNativeTarget "iConnectTests" */;
+			buildPhases = (
+				FEA245F31E491F4600D5CC20 /* Sources */,
+				FEA245F41E491F4600D5CC20 /* Frameworks */,
+				FEA245F51E491F4600D5CC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA245F91E491F4600D5CC20 /* PBXTargetDependency */,
+			);
+			name = iConnectTests;
+			productName = iConnectTests;
+			productReference = FEA245F71E491F4600D5CC20 /* iConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA246011E491F4600D5CC20 /* iConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA246111E491F4600D5CC20 /* Build configuration list for PBXNativeTarget "iConnectUITests" */;
+			buildPhases = (
+				FEA245FE1E491F4600D5CC20 /* Sources */,
+				FEA245FF1E491F4600D5CC20 /* Frameworks */,
+				FEA246001E491F4600D5CC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA246041E491F4600D5CC20 /* PBXTargetDependency */,
+			);
+			name = iConnectUITests;
+			productName = iConnectUITests;
+			productReference = FEA246021E491F4600D5CC20 /* iConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA245DE1E491F4500D5CC20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ecp;
+				TargetAttributes = {
+					FEA245E51E491F4500D5CC20 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FEA245F61E491F4600D5CC20 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEA245E51E491F4500D5CC20;
+					};
+					FEA246011E491F4600D5CC20 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEA245E51E491F4500D5CC20;
+					};
+				};
+			};
+			buildConfigurationList = FEA245E11E491F4500D5CC20 /* Build configuration list for PBXProject "iConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA245DD1E491F4500D5CC20;
+			productRefGroup = FEA245E71E491F4500D5CC20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA245E51E491F4500D5CC20 /* iConnect */,
+				FEA245F61E491F4600D5CC20 /* iConnectTests */,
+				FEA246011E491F4600D5CC20 /* iConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA245E41E491F4500D5CC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA245EE1E491F4500D5CC20 /* Assets.xcassets in Resources */,
+				FEA245F11E491F4500D5CC20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA245F51E491F4600D5CC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA246001E491F4600D5CC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA245E21E491F4500D5CC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA245EC1E491F4500D5CC20 /* ViewController.swift in Sources */,
+				FEA245EA1E491F4500D5CC20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA245F31E491F4600D5CC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA245FC1E491F4600D5CC20 /* iConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA245FE1E491F4600D5CC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA246071E491F4600D5CC20 /* iConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA245F91E491F4600D5CC20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA245E51E491F4500D5CC20 /* iConnect */;
+			targetProxy = FEA245F81E491F4600D5CC20 /* PBXContainerItemProxy */;
+		};
+		FEA246041E491F4600D5CC20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA245E51E491F4500D5CC20 /* iConnect */;
+			targetProxy = FEA246031E491F4600D5CC20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA245EF1E491F4500D5CC20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA245F01E491F4500D5CC20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA246091E491F4600D5CC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEA2460A1E491F4600D5CC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FEA2460C1E491F4600D5CC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecp.iConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FEA2460D1E491F4600D5CC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecp.iConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FEA2460F1E491F4600D5CC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecp.iConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iConnect.app/Contents/MacOS/iConnect";
+			};
+			name = Debug;
+		};
+		FEA246101E491F4600D5CC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecp.iConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iConnect.app/Contents/MacOS/iConnect";
+			};
+			name = Release;
+		};
+		FEA246121E491F4600D5CC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecp.iConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iConnect;
+			};
+			name = Debug;
+		};
+		FEA246131E491F4600D5CC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecp.iConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA245E11E491F4500D5CC20 /* Build configuration list for PBXProject "iConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA246091E491F4600D5CC20 /* Debug */,
+				FEA2460A1E491F4600D5CC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA2460B1E491F4600D5CC20 /* Build configuration list for PBXNativeTarget "iConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA2460C1E491F4600D5CC20 /* Debug */,
+				FEA2460D1E491F4600D5CC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEA2460E1E491F4600D5CC20 /* Build configuration list for PBXNativeTarget "iConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA2460F1E491F4600D5CC20 /* Debug */,
+				FEA246101E491F4600D5CC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEA246111E491F4600D5CC20 /* Build configuration list for PBXNativeTarget "iConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA246121E491F4600D5CC20 /* Debug */,
+				FEA246131E491F4600D5CC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA245DE1E491F4500D5CC20 /* Project object */;
+}
